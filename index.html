@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P-Ticket</title>
 
+    <!-- CSS Styles Link -->
+    <link rel="stylesheet" href="styles/style.css">
+
 
     <!-- Font awsome CDN LInk -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -19,11 +22,11 @@
 
 </head>
 
-<body>
+<body class="">
     <!-- Navbar Start -->
-    <header class="container mx-auto">
+    <header class="container mx-auto px-14">
         <nav>
-            <div class="navbar sm:mt-4 lg:mt-4 z-10 font-raleway">
+            <div class="navbar sm:mt-4 lg:mt-4 z-10 font-raleway ">
                 <div class="flex-1">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -52,19 +55,79 @@
                         <li><a>Destination</a></li>
                         <li><a>Search</a></li>
                     </ul>
-
                 </div>
-                <div class="justify-end w-5 text-[#1DD100] h-10  flex  flex-1 font-bold bg-[#1DD1001A] space-x-4 ">
-
+                <div
+                    class="justify-center min-w-32 min-h-6 bg-[#1DD1001A] rounded-xl text-[#1DD100] h-10  flex font-bold  space-x-4 border">
                     <p class=" ">Bus</p>
                     <p><i class="fa-solid fa-bus"></i></p>
-
-
                 </div>
             </div>
         </nav>
     </header>
     <!-- Navbar End -->
+
+
+
+    <main>
+        <!-- banner section start -->
+        <section class="banner-container container mx-auto px-10 py-5 mb-5">
+            <div class="hero min-h-screen rounded-3xl" style="background-image: url(images/banner.png);">
+                <div class=" bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class=" space-y-4 text-[#FFFFFF] ">
+                        <h1 class="mb-5 text-6xl font-extrabold ">End-to-End Travel with
+                            <br>
+                            <span class="text-[#1DD100]">P Paribahan</span>
+                        </h1>
+                        <p class="mb-5">"Discover the world's wonders hassle-free with our dedicated team, <br>ensuring
+                            every journey exceeds your expectations."</p>
+                        <button class="btn px-5  font-bold text-[#030712] text-xl  bg-[#1DD100]">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- banner section end -->
+        <section class="flex flex-row justify-center items-center container mx-auto px-10 py-5 mb-5 gap-6">
+            <!-- Best offers start-->
+            <div class="flex flex-1  justify-center items-center rounded-3xl bg-[#FFBF0F] ">
+                <div class=".font-inter text-start p-3 m-3 items-center">
+                    <h1 class="text-[#030712CC] font-black text-4xl">15% OFF </h1>
+                    <p class="font-semibold text-xl text-[#030712CC]">on your next purchase <br>
+                    </p>
+                    <p><span class="text-[#03071280] font-medium ">use by January 2024</span></p>
+                </div>
+                <img src="images/cupon-devider.png" alt="">
+
+                <div class="font-raleway justify-center items-center ">
+                    <h1 class="font-bold text-3xl text-[#030712]">NEW15 <br>
+                        <span class="text-[#03071266] text-2xl font-medium ">Coupon Code</span></h1>
+                </div>
+            </div>
+            <!-- second div -->
+            <div class="flex flex-1  justify-center items-center rounded-3xl bg-[#F78C9C] ">
+                <div class=".font-inter text-start p-3 m-3 items-center">
+                    <h1 class="text-[#030712CC] font-black text-4xl">20% OFF </h1>
+                    <p class="font-semibold text-xl text-[#030712CC]">on your next purchase <br>
+                    </p>
+                    <p><span class="text-[#03071280] font-medium ">use by January 2024</span></p>
+                </div>
+                <img src="images/cupon-devider.png" alt="">
+
+                <div class="font-raleway justify-center items-center ">
+                    <h1 class="font-bold text-3xl text-[#030712]">Couple 20<br>
+                        <span class="text-[#03071266] text-2xl font-medium ">Coupon Code</span></h1>
+                </div>
+            </div>
+            
+
+
+            <!-- Best offers end-->
+        </section>
+
+
+
+    </main>
 
 </body>
 
